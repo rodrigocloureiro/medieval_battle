@@ -9,7 +9,7 @@ public class Guerreiro extends Personagem {
     }
 
     private int calcularFatorDeDano() {
-        return Dado.rolarD4() + Dado.rolarD4() + getForca();
+        return Dado.rolarD4() + Dado.rolarD4();
     }
 
     @Override
